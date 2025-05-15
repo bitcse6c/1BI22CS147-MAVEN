@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/bitcse6c/IBI22CS164-MAVEN.git'
+                git branch: 'master', url: 'https://github.com/bitcse6c/IBI22CS147-MAVEN.git'
             }
         }
 
